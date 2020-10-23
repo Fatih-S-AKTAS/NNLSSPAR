@@ -434,7 +434,8 @@ for example; Variance will be negative")
             else:
                 self.residual_squared.append(low)
                 self.indices.append(C)
-                self.coefficients.append(coef[C+list(range(-1,-self.excluded_indices_length-1,-1))])
+                # self.coefficients.append(coef[C+list(range(-1,-self.excluded_indices_length-1,-1))])
+                self.coefficients.append(coef)
                 """ registerin the solution"""
                 count_best += 1
                 if count_best == self.many:
