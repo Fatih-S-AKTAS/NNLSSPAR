@@ -3,7 +3,7 @@
 
 This repository contains a package to solve the following problem
 
-[![g](--insert link here --)]()
+[![g](https://github.com/Fatih-S-AKTAS/NNLSSPAR/blob/master/files/nnlssparquestion.png)]()
 
 **Assumptions**
 - System is overdetermined, A is a m x n matrix where m > n.
