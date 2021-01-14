@@ -11,16 +11,16 @@ This repository contains a package to solve the following problem
 
 # Usage
 
-This package uses guppy3 by  YiFei Zhu and Sverker Nilsson for tracking memory usage. Hence guppy3 must be installed prior to using LSSPAR. 
+This package uses guppy3 by  YiFei Zhu and Sverker Nilsson for tracking memory usage. Hence guppy3 must be installed prior to using NNLSSPAR. 
 
 ```python
 pip install guppy3
 ```
 
-Then, after downloading LSSPAR.py, it can be used as follows:
+Then, after downloading NNLSSPAR.py, it can be used as follows:
 
 1. Register values of matrix A, vector b and integer s.
-2. Create instance of LSSPAR
+2. Create instance of NNLSSPAR
 3. Call solve function
 
 ```python
@@ -36,6 +36,6 @@ question = NNLSSPAR(A,b,s)
 question.solve()
 ```
 
-more details can be found in <a href="https://github.com/Fatih-S-AKTAS/NNLSSPAR/blob/master/Guide%20for%20NNLSSPAR.pdf">Guide for NNLSSPAR</a>
+It also allows extra variables which are not constrained, which we call it "Extended Least Squares", more details can be found in <a href="https://github.com/Fatih-S-AKTAS/NNLSSPAR/blob/master/Guide%20for%20NNLSSPAR.pdf">Guide for NNLSSPAR</a>
 
 If you are using NNLSSPAR in your project, please give reference.
