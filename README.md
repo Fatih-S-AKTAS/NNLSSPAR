@@ -36,6 +36,6 @@ question = NNLSSPAR(A,b,s)
 question.solve()
 ```
 
-It also allows extra variables which are not constrained, which we call it "Extended Least Squares", more details can be found in <a href="https://github.com/Fatih-S-AKTAS/NNLSSPAR/blob/master/Guide%20for%20NNLSSPAR.pdf">Guide for NNLSSPAR</a>
+It also allows extra variables which are not constrained, which we call this problem as "Extended Least Squares", more details can be found in <a href="https://github.com/Fatih-S-AKTAS/NNLSSPAR/blob/master/Guide%20for%20NNLSSPAR.pdf">Guide for NNLSSPAR</a>
 
 If you are using NNLSSPAR in your project, please give reference.
