@@ -36,4 +36,6 @@ question = NNLSSPAR(A,b,s)
 question.solve()
 ```
 
-more details can be found in <a href="--guide link---" target="_blank">Guide for NNLSSPAR</a>
+more details can be found in <a href="https://github.com/Fatih-S-AKTAS/NNLSSPAR/blob/master/Guide%20for%20NNLSSPAR.pdf">Guide for NNLSSPAR</a>
+
+If you are using NNLSSPAR in your project, please give reference.
